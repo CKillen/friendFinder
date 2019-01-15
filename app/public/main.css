@@ -1,0 +1,33 @@
+body, html {
+  background: #DDEAB2;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.content {
+  display: grid;
+}
+
+.question-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+select {
+  width: 100px;
+  text-indent: 18px;
+}
+
+.main {
+  display: column;
+}
+
+.main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
